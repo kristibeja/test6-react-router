@@ -1,0 +1,54 @@
+.dashboard {
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* height: 100vh; */
+    margin: 40px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.left-dashboard {
+    background-color: #fff;
+    width: 635px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.deals-and-tasks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.deals-container {
+    background-color: #fff;
+    padding: 15px 20px;
+    margin: 0 0 40px 40px;
+    border-radius: 8px;
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.deals-container img {
+    object-fit: none;
+}
+
+.tasks-container {
+    background-color: #fff;
+    padding: 15px 20px;
+    margin: 0 0 0 40px;
+    border-radius: 8px;
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tasks-container img {
+    object-fit: none;
+}

@@ -1,0 +1,22 @@
+.contacts-container {
+    margin: 40px 40px 0;
+}
+
+.contacts-container table {
+    background: #fff;
+    border-radius: 8px;
+    border-spacing: 20px;
+}
+
+.table-title td {
+    color: #334D6E;
+    opacity: 0.5;
+}
+
+.table-data .name{
+    color: #323C47;
+}
+
+.table-data .grey{
+    color: #707683;
+}
